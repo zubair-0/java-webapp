@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	/*background: url("/TravelWebsite/images/international.jpg") no-repeat
+		center center fixed;*/
+		background-color:orange;
+	background-size: cover;
+}
+
+.login_form {
+	/* Size and position */
+	width: 280px;
+	margin: 60px auto 30px;
+	position: relative;
+	padding: 20px 5px;
+	/* Styles */
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.9), 0 3px 2px rgba(0, 0, 0, 0.9);
+	text-aligin: right;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.login_welcome_note {
+	color: white;
+	text-align: center;
+	font-size: larger;
+}
+
+.login_form input {
+	padding: 10px;
+	border-radius: 5px;
+	content-align: left;
+}
+
+.login_input_label {
+	color: white;
+	font-size: medium;
+}
+
+.login_button_div {
+	margin: 10px 95px 30px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+@media screen and (min-width: 600px) {
+	.login_form {
+		padding: 100px 100px;
+	}
+	.login_input_label {
+		color: white;
+		font-size: larger;
+	}
+	.login_welcome_note {
+		font-size: 70px;
+	}
+}
